@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prod": "pm2 start server.js -n dashboard && pm2 startup && pm2 save",
+    "prod": "pm2 start server.js --watch -n dashboard && pm2 startup && pm2 save",
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
