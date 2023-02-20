@@ -10,11 +10,11 @@ server.get('/', (req, res) => {
 });
 
 server.get('/nexusmelody/', (req, res) => {
-  res.redirect('https://note-navigator.itskdhere.repl.co/');
+  res.redirect('https://nexus-melody.itskdhere.repl.co/');
 });
 
 server.get('/notenavigator/', (req, res) => {
-  res.redirect('https://nexus-melody.itskdhere.repl.co/');
+  res.redirect('https://note-navigator.itskdhere.repl.co/');
 });
 
 server.get('/joinserver/', (req, res) => {
